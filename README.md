@@ -8,8 +8,8 @@ This app was created to support my Cryptography assignment. All the functionalit
 My implementation of Ceasar Cipher works only on longer texts (singular sentences won't decode). Usually 3 and more sentences is good starting point.
 
 -- Exercise 2 (3 marks) --
--- The plaintext comes from tess26.txt and is encoded with a Vigenere cipher using-
--- the 21-letter key TESSOFTHEDURBERVILLES.
+The plaintext comes from tess26.txt and is encoded with a Vigenere cipher using-
+the 21-letter key TESSOFTHEDURBERVILLES.
 This implementation is using the Vigenere Cipher with a keyword 'TESSOFTHEDURBERVILLES'.
 
 -- Exercise 3 (4 marks) --
