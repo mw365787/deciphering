@@ -17,8 +17,7 @@ After adding all the values together, the smallest value of Chi Statistic will s
 There are references in the code in ciphers.js
 
 
-### Exercise 4) The plaintext comes from tess26.txt and is encoded with a Vigenere cipher. The
-### key is an arbitrary sequence of between 4 and 6 letters. 
+### Exercise 4) The plaintext comes from tess26.txt and is encoded with a Vigenere cipher. The key is an arbitrary sequence of between 4 and 6 letters. 
 It's very similiar methodology as with exercise3 but you have to check 4, 5 and 6 letter sequences.
 
 
