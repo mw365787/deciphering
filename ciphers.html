@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cipher decryption</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <div class="centered">
+            <h3>ciphertext</h2>
+            <div class="ciphertext"><input type="text" id="ciphertext"></input></div>
+            <div class="centerButton">
+                <select name="cipherTypes" id="cipherTypes">
+                    <option value="Ceasar">Ceasar Cipher</option>
+                    <option value="Vigenere21key">Vigenere Cipher (21 key)</option>
+                    <option value="Vigenere6key">Vigenere Cipher (arbitrary 6 key)</option>
+                    <option value="Vigenere4to6key">Vigenere Cipher (arbitrary 4-6 key)</option>
+                    <option value="Transposition4to6col">Transposition Cipher (4-6 columns)</option>
+                    <option value="Transposition6col">Transposition Cipher (6 columns)</option>
+                  </select>
+                <button class="decrypt" id="decrypt" onclick="selectCipher(document.getElementById('ciphertext').value, document.getElementById('cipherTypes').value)">decrypt</button>
+            </div>
+            <h3>plaintext</h2>
+            <div class="plaintext" id="plaintext"></div>
+        </div>
+
+    <script type="text/javascript" src="ciphers.js"></script>
+    </body>
+</html>

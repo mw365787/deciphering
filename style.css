@@ -1,0 +1,72 @@
+html, body {
+    margin:0; padding:0;
+    min-width: 100%;
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Gill Sans", "Gill Sans MT";
+    }
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 2rem;
+    max-width: 50rem;
+
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+.plaintext{
+    border: 2px solid black;
+    height: auto;
+    max-width: 22.5rem;
+    max-height: 100%;
+    min-height: 3rem;
+    overflow-wrap: break-word;
+
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.ciphertext{
+    height: 3.5em;
+    max-width: 23rem;
+    max-height: 50rem;
+    overflow-wrap: break-word;
+
+    margin: 0 auto;
+    padding: 1px;
+}
+
+input {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.centerButton {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerButton button {
+    width: 7rem;
+    height: 2rem;
+}
+
+.centerButton select {
+    font-size: 14px;
+    margin-right: 1rem;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2rem;
+}
